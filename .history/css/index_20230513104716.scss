@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+
+
 :root {
   --border-radius: 0.5rem;
   --width-max: 75vw;
   --background-color: rgb(24, 24, 24);
   --background-color--cell: rgb(33, 33, 33);
-  --type-color-one: rgb(170, 170, 170);
+  --type-color-one: rgb(61, 61, 61);
 }
 
 * *::before,
@@ -12,7 +15,6 @@
   box-sizing: border-box;
   border: none;
 }
-
 * body,
 * h1,
 * h2,
@@ -28,13 +30,13 @@
 }
 
 body {
-  color: var(--type-color-one);
+    color: red;
   margin-top: 6vw;
-  margin-left: 6vw;
-  margin-right: 6vw;
   background-color: var(--background-color);
 }
 
 h1.heading::before {
-  content: "blah";
-}/*# sourceMappingURL=index.css.map */
+
+content: "blah";
+
+}
