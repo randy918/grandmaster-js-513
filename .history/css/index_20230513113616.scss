@@ -75,7 +75,7 @@ $colors: (
 
 body {
     color: var(--type-color-one);
-    margin-top: 6vw;
+            margin-top: 6vw;
     margin-left: 6vw;
     margin-right: 6vw;
     background-color: var(--background-color);
@@ -83,9 +83,4 @@ body {
 
 h1.heading::after {
     content: "blah";
-}
-
-.button__intro {
-
-
 }

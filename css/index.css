@@ -35,6 +35,6 @@ body {
   background-color: var(--background-color);
 }
 
-h1.heading::before {
+h1.heading::after {
   content: "blah";
 }/*# sourceMappingURL=index.css.map */
